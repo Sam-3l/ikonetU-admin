@@ -56,7 +56,6 @@ function toCamelCase(str: string): string {
   
   /**
    * Enhanced API request function with automatic case conversion
-   * USES YOUR EXISTING auth_token FROM localStorage
    */
   export async function apiRequest(
     method: string,
